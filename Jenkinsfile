@@ -4,7 +4,7 @@ pipeline {
     AWS_REGION      = 'ap-south-1'
     EKS_CLUSTER     = 'trend-eks'
     KUBE_NAMESPACE  = 'trend'
-    DOCKER_IMAGE    = 'ravikumar/trend'   // <- replace
+    DOCKER_IMAGE    = 'ravimccullum/trend'   // <- replace
     DOCKERHUB_CREDS = 'dockerhub-cred'           // Jenkins credential id
   }
   stages {
